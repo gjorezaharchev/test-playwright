@@ -1,6 +1,6 @@
 import { expect, type Locator, type Page } from '@playwright/test';
 import * as fs from 'fs';
-const login = JSON.parse(fs.readFileSync('../test-playwright/tests/class2/pom/login.json', 'utf-8'));
+const login = JSON.parse(fs.readFileSync('tests/class2/pom/login.json', 'utf-8'));
 
 
 export class SaucedemoPage {
